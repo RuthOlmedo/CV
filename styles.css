@@ -1,0 +1,97 @@
+.cvContainer{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #F5EFFF;
+    padding: 3%;
+    border-radius: 10px;
+}
+header{
+    text-align: center;
+    background-color: #D4C4E9; 
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap');
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+h2,h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+h2{
+    text-align: center;
+    font-size: 1.8em;
+}
+h3{
+    font-size: 1.2em; 
+}
+p,li,span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+article{
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
+}
+article>span{
+    text-align: center;
+}
+.article-habilidades{
+    justify-content: space-around;
+    gap: 10%;
+}
+body{
+    padding-top: 3%;
+    background-color: #E5D9F2;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+.section-habilidades-soft{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+}
+.article-contactos{
+    justify-content: space-around;
+}
+hr{
+    width: 80%;
+    height: 2px;
+    border-radius: 20px;
+    background-color: #CDC1FF;
+    border: none;
+}
+.footer-hr{
+    width: 50%;
+}
+footer a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A594F9;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 250ms ease;
+}
+
+footer a:hover {
+    background-color: rgb(115, 41, 179);
+}
+.div-cursos,.div-education{
+    padding: 20px;
+}
+.li-habilidades{
+    list-style-type: square;
+}
