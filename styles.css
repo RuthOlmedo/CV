@@ -95,48 +95,30 @@ footer a:hover {
 .li-habilidades{
     list-style-type: square;
 }
+@media screen and (max-width: 1024px) {
+    .cvContainer {
+        width: 70%;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .cvContainer {
-        width: 95%;
-        padding: 1rem;
-        margin: 1rem auto;
+        width: 90%;
+        padding: 5%;
     }
 
-    header {
-        padding: 1.5rem 1rem;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        font-size: 1.75rem;
-    }
-
-    h3 {
-        font-size: 1.3rem;
-    }
-
-    .div-cursos article, .div-education article {
+    article {
         flex-direction: column;
-        align-items: flex-start;
+        gap: 10px;
     }
 
-    .date-cursos, .div-education span {
+    article > span {
         text-align: left;
-        margin-top: 0.5rem;
     }
 
     .article-habilidades, .article-contactos {
         flex-direction: column;
-        align-items: center;
-    }
-
-    .article-habilidades section, .article-contactos section {
-        width: 100%;
-        margin-bottom: 1rem;
+        gap: 20px;
     }
 
     .section-habilidades-soft ul {
@@ -144,33 +126,51 @@ footer a:hover {
         align-items: center;
     }
 
-    .section-habilidades-soft li {
-        width: 80%;
-        text-align: center;
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.1em;
     }
 }
 
 @media screen and (max-width: 480px) {
     .cvContainer {
         width: 100%;
+        padding: 5%;
         border-radius: 0;
-        margin: 0;
-        padding: 1rem 0.5rem;
     }
 
     header {
         border-radius: 0;
     }
 
+    .div-cursos, .div-education {
+        padding: 10px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .footer-hr {
+        width: 70%;
+    }
+
     h1 {
-        font-size: 1.75rem;
+        font-size: 1.8em;
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.3em;
     }
 
     h3 {
-        font-size: 1.2rem;
+        font-size: 1em;
     }
 }
