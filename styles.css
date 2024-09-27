@@ -98,50 +98,79 @@ footer a:hover {
 
 @media screen and (max-width: 768px) {
     .cvContainer {
-        width: 90%;
-        padding: 5%;
-    }
-
-    body {
-        padding-top: 5%;
+        width: 95%;
+        padding: 1rem;
+        margin: 1rem auto;
     }
 
     header {
-        padding: 15px;
+        padding: 1.5rem 1rem;
     }
 
     h1 {
-        font-size: 1.8em;
+        font-size: 2rem;
     }
 
     h2 {
-        font-size: 1.5em;
+        font-size: 1.75rem;
     }
 
     h3 {
-        font-size: 1.2em;
+        font-size: 1.3rem;
     }
 
-    article {
+    .div-cursos article, .div-education article {
         flex-direction: column;
-        gap: 20px;
+        align-items: flex-start;
     }
 
-    .article-habilidades,
-    .article-contactos {
+    .date-cursos, .div-education span {
+        text-align: left;
+        margin-top: 0.5rem;
+    }
+
+    .article-habilidades, .article-contactos {
         flex-direction: column;
         align-items: center;
     }
 
-    .section-habilidades-soft ul {
-        padding-left: 20px;
-    }
-
-    hr {
+    .article-habilidades section, .article-contactos section {
         width: 100%;
+        margin-bottom: 1rem;
     }
 
-    .footer-hr {
-        width: 70%;
+    .section-habilidades-soft ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-habilidades-soft li {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cvContainer {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        padding: 1rem 0.5rem;
+    }
+
+    header {
+        border-radius: 0;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
     }
 }
