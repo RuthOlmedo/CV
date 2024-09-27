@@ -108,7 +108,7 @@ footer a:hover {
     }
 
     article {
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
     }
 
@@ -117,12 +117,12 @@ footer a:hover {
     }
 
     .article-habilidades, .article-contactos {
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px;
     }
 
     .section-habilidades-soft ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
