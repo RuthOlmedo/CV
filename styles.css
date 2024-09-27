@@ -95,3 +95,53 @@ footer a:hover {
 .li-habilidades{
     list-style-type: square;
 }
+
+@media screen and (max-width: 768px) {
+    .cvContainer {
+        width: 90%;
+        padding: 5%;
+    }
+
+    body {
+        padding-top: 5%;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    article {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .article-habilidades,
+    .article-contactos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-habilidades-soft ul {
+        padding-left: 20px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .footer-hr {
+        width: 70%;
+    }
+}
